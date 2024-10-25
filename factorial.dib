@@ -1,0 +1,11 @@
+PROGRAM FACTORIAL
+DATA
+    N      INTEGER
+    FACT   INTEGER
+CODE
+    INPUT N
+    FACT = 1
+    FOR I = 1 TO N
+        FACT = FACT * I
+    OUTPUT FACT
+END
